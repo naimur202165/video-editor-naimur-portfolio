@@ -1,15 +1,14 @@
 "use client";
-import Image from "next/image";
-import React from "react";
-import { motion } from "framer-motion";
-import { Fade } from "react-awesome-reveal";
-import Link from "next/link";
-import { BsLinkedin } from "react-icons/bs";
-import { BiLogoInstagramAlt } from "react-icons/bi";
-import { HiDownload } from "react-icons/hi";
-import { useSectionInView } from "@/lib/useInView";
 import { useActiveSectionContext } from "@/containers/active-section";
+import { useSectionInView } from "@/lib/useInView";
+import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { Fade } from "react-awesome-reveal";
+import { BiLogoInstagramAlt } from "react-icons/bi";
+import { BsLinkedin } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi";
 
 export default function Intro() {
   const { ref } = useSectionInView("#home", 0.5);
@@ -102,7 +101,7 @@ export default function Intro() {
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/somnathbanerjee007/"
+          href="https://www.linkedin.com/in/naimur202164/"
           target="_blank"
         >
           <BsLinkedin />
@@ -110,7 +109,7 @@ export default function Intro() {
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.instagram.com/somu7__/"
+          href=""
           target="_blank"
         >
           <BiLogoInstagramAlt />
