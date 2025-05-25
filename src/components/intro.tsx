@@ -95,7 +95,7 @@ export default function Intro() {
           href="/Resume.pdf"
           download
         >
-          Download CV{" "}
+          Download CdV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
